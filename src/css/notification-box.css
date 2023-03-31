@@ -1,0 +1,50 @@
+.notification-box {
+    border: 4px solid black;
+    border-radius: 25px;
+    width: 350px;
+    height: 500px;
+    align-items: center;
+    background-color: rgb(164, 160, 160);
+    font-weight: bolder;
+    margin: 2px;
+    line-height: 24px;
+  }
+
+  .scroll {
+    overflow: scroll;
+  }
+
+  .notifications {
+    flex-wrap: wrap;
+  }
+
+  .notification-page{
+    height: 500px;
+    margin-bottom: 200px;
+    margin-left: 80px;
+  }
+
+  .scroll-content{
+      overflow-y: auto;
+     height: 700px;
+    }
+
+    .map{
+      width: 325px;
+      height: 256px;
+  }
+
+  .x-button {
+    border: none;
+    background-color: transparent;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-right: 4px;
+    cursor: pointer;
+    margin-left: 298px;
+    position: absolute;
+  }
+
+  .relative{
+    position: relative;
+  }

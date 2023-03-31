@@ -1,0 +1,152 @@
+html body {
+  height: 100vh;
+  width: 100vw;
+}
+
+*:not(head) {
+  display: flex;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  height: 8%;
+  justify-content: center;
+  background-color: #349de3d7;
+  color: black;
+}
+
+.links {
+  margin: auto 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
+  
+}
+
+.header-wrd {
+  color: #050505;
+  align-items: center;
+}
+
+.aws-btn {
+
+  --button-default-height: 100px;
+  --button-default-font-size: 25px;
+  --button-default-border-radius: 25px;
+  --button-horizontal-padding: 50px;
+  --button-raise-level: 7px;
+  --button-hover-pressure: 0;
+  --transform-speed: 0.175s;
+  --button-primary-color: #ff0000;
+  --button-primary-color-dark: #7b6b6b;
+  --button-primary-color-light: #000000;
+  --button-primary-color-hover: #c9c9c9;
+  --button-primary-border: 0px solid #000000;
+  --button-secondary-color: #fffc6c;
+  --button-secondary-color-dark: #b9b500;
+  --button-secondary-color-light: #6c6a00;
+  --button-secondary-color-hover: #fffb3e;
+  --button-secondary-border: none;
+  --button-anchor-color: #f3c8ad;
+  --button-anchor-color-dark: #734922;
+  --button-anchor-color-light: #4c3016;
+  --button-anchor-color-hover: #f1bfa0;
+  --button-anchor-border: 1px solid #8c633c;
+}
+
+.signout-button {
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  margin-top: 19px;
+  font-weight: 550;
+  color: white;
+  cursor: pointer;
+}
+
+.help-button {
+  height: 40px;
+}
+
+.background-img {
+  background-image: url(../public/GuardA.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.signup-box {
+  background-color: #349de3;
+  color: black;
+  border: solid black 2px;
+  border-radius: 5%;
+  height: 60%;
+  width: 15%;
+  align-items: center;
+}
+
+.signin-box {
+  background-color: #349de3;
+  color: black;
+  border: solid black 2px;
+  border-radius: 5%;
+  height: 60%;
+  width: 15%;
+  align-items: center;
+}
+
+.emergency-button {
+  margin-left: 172px;
+  margin-bottom: 214px;
+  height: 164px;
+  width: 120px;
+  display: inline-block;
+  padding-top: 52px;
+  padding-left: 2px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  border-radius: 40px;
+}
+
+.emergency-button:hover {background-color: #fc060645}
+
+.emergency-button:active {
+  background-color: transparent;
+   
+}
+
+.relative{
+  position: relative;
+  
+}
+
+.absolute {
+
+position: absolute;}
