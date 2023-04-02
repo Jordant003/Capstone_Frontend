@@ -21,7 +21,7 @@ function UserLocation(props) {
     };
 
     return (
-        <LoadScript googleMapsApiKey="AIzaSyBz_wc0WGzbCDOykwyabBTLSwMcJ4mBsrU">
+        <LoadScript googleMapsApiKey="">
             <GoogleMap
                 mapContainerStyle={containerStyle}
                 center={center}
