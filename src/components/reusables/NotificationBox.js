@@ -70,7 +70,7 @@ function NotificationBox(props) {
                     DATE/TIME: <Moment format="MM/DD/YYYY h:mm:ss">{props.notification.dateCreated}</Moment>
                 </div>
                 <div className='map' onClick={setNotification}>
-                    <LoadScript googleMapsApiKey="AIzaSyBz_wc0WGzbCDOykwyabBTLSwMcJ4mBsrU">
+                    <LoadScript googleMapsApiKey="">
                         <GoogleMap
                             mapContainerStyle={containerStyle}
                             center={center}
